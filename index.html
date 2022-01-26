@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TIC TAC TOE</title>
+</head>
+
+<body>
+<div class="container">
+    <h1> --TIC TAC TOE -- </h1>
+    <div>
+        <button class="reset" onclick="init()">RESET</button>
+    </div>
+    <div class="game-main-container">
+        <div class="game-fixer-float-container">
+            <div>
+                <button id="00" class="button-style" onclick="clickedOnCell(0,0)"></button>
+                <button id="01" class="button-style" onclick="clickedOnCell(0,1)"></button>
+                <button id="02" class="button-style" onclick="clickedOnCell(0,2)"></button>
+                <div class="reset-float"></div>
+            </div>
+            <div>
+                <button id="10" class="button-style" onclick="clickedOnCell(1,0)"></button>
+                <button id="11" class="button-style" onclick="clickedOnCell(1,1)"></button>
+                <button id="12" class="button-style" onclick="clickedOnCell(1,2)"></button>
+                <div class="reset-float"></div>
+            </div>
+            <div>
+                <button id="20" class="button-style" onclick="clickedOnCell(2,0)"></button>
+                <button id="21" class="button-style" onclick="clickedOnCell(2,1)"></button>
+                <button id="22" class="button-style" onclick="clickedOnCell(2,2)"></button>
+                <div class="reset-float"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="XO.js"></script>
+
+</html>

@@ -1,0 +1,45 @@
+.container {
+    text-align: center;
+}
+
+.button-style {
+    border-radius: 5px;
+    border-color: rgb(158, 158, 158);
+    background-color: rgb(157, 157, 157);
+    margin: 2px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    float: left;
+
+}
+
+h1 {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.reset-float {
+    clear: both;
+}
+
+.reset {
+    border-radius: 5px;
+    border-color: rgb(158, 158, 158);
+    background-color: rgb(157, 157, 157);
+    margin: 2px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.game-main-container {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+.game-fixer-float-container {
+    position: relative;
+    left: -50%;
+}
